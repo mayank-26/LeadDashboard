@@ -1,0 +1,275 @@
+.example-card1 {
+  width:430px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+ border: 1px solid #777
+}
+.example-card2 {
+   width: 120px;
+  margin-left: 10px;
+   height: 120px;
+   margin-top: 20px;
+    border: 1px solid #777
+    
+}
+.example-card3 {
+  width: 120px;
+  height: 120px;
+ margin-left: 10px;
+  margin-top: 10px;
+   border: 1px solid #777
+}
+.example-card4 {
+  width: 750px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: -106px;
+   border: 1px solid #777
+  
+}
+.example-card5 {
+  width: 1310px;
+  height:max-content;
+  margin-top: 10px;
+  margin-left: 30px;
+   border: 1px solid #777
+  
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+span
+{
+    color: #555;
+    font-size: 14px;
+}
+h3{
+    font-weight: bolder;
+}
+p{
+
+    color: #555;
+    font-size: 16px;
+}
+i
+{
+    font-weight: bold;
+    font-style: normal;
+}
+h2
+{
+    font-size: 2px;
+}
+
+.blue
+{
+    font-weight: normal;
+    font-size: 17px;
+    color:#25AFF3
+}
+
+.vl {
+  border-left: 1px solid #777;
+  height: 16px;
+}
+
+.mat-ink-bar{
+    background-color:#555;
+}
+.mat-tab-label-active{
+     color: #D54471 !important;
+ } 
+
+ .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #D54471;
+    border-color:#D54471;
+    border-style: solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+}
+
+.mat-tab-label-active:not(.mat-tab-disabled), .mat-tab-label.mat-tab-label-active.cdk-keyboard-focused:not(.mat-tab-disabled){
+    border-color: #D54471;
+    
+    opacity: 1;  
+}
+table {
+  width: 100%;
+ background-color: #F7F7F7;
+}
+
+
+
+.demo-table {
+  width: 100%;
+  background-color:#F7F7F7;
+  height:auto;
+}
+
+.demo-button-container {
+  padding-bottom: 16px;
+  margin-top: 10px;
+}
+
+.demo-button{
+  
+  width: 250px;
+  height: 50px;
+  border-color: #777;
+  margin-left: 40px;
+}
+
+
+@media(max-width:1300px) 
+{
+  .row .col-4 .example-card1
+  {
+     width: 780px;
+     height:300px;
+  }
+    .row .col-4 .example-card1 h1
+  {
+     font-size: 15px;
+  }
+  .row .col .example-card2
+  {
+     width: 780px;
+     margin-left: 30px;
+  }
+
+ .row .col .example-card3
+  {
+     width: 780px;
+     margin-left: 30px;
+  }
+  .row .col-6 .example-card4
+  {
+     width: 780px;
+     margin-left: 18px;
+  }
+   .row .col-6 table
+{
+    width: 490px;
+}
+
+
+}
+
+@media(max-width:1000px) 
+{
+  .row .col-4 .example-card1
+  {
+     width: 680px;
+     height:300px;
+  }
+    .row .col .example-card1 h1
+  {
+     font-size: 15px;
+  }
+.row .col .example-card2
+  {
+     width: 680px;
+     margin-left: 30px;
+  }
+
+ .row .col .example-card3
+  {
+     width: 680px;
+     margin-left: 30px;
+  }
+  .row .col-6 .example-card4
+  {
+     width: 680px;
+     margin-left: 18px;
+  }
+   .row .col-6 .example-card4 h2,p
+  {
+          font-size: 18px;
+  }
+  .row .col-6 table
+{
+    width: 680px;
+}
+}
+
+
+@media(max-width:763px) 
+
+{
+     .row .col-4 .example-card1
+  {
+    width: 540px;
+     height: 300px;
+  }
+    .row .col .example-card1 h1
+  {
+     font-size: 10px;
+  }
+.row .col .example-card2
+  {
+     width: 540px;
+     margin-left: 30px;
+  }
+
+ .row .col .example-card3
+  {
+     width: 540px;
+     margin-left: 30px;
+  }
+  .row .col-6 .example-card4
+  {
+          width: 540px;
+     margin-left: 15px;
+     height:300px
+  }
+   .row .col-6 .example-card4 h2,p
+  {
+          font-size: 16px;
+  }
+  .row .col-6 table
+{
+    width: 540px;
+}
+}
+
+@media(max-width:500px) 
+{
+
+  .row .col-4 .example-card1
+  {
+     width: 400px;
+     height: 350px;
+  }
+ .row .col  .example-card2
+  {
+     width: 400px;
+     margin-left: 30px;
+  }
+
+  .row .col .example-card3
+  {
+     width: 400px;
+      margin-left: 30px;
+      align-self:center ;
+  }
+  .row .col-6 .example-card4
+  {
+          width: 400px;
+          height: 300px;
+     margin-left: 15px;
+  }
+  .row .col-6 .example-card4 h2,p
+  {
+          font-size: 12px;
+  }
+.row .col-6 table
+{
+    width: 450px;
+}
+
+}
